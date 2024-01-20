@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color:#435585;
+    text-align: center;
+}
+h1{
+    font-family: 'Rubik Burned', system-ui;
+    color: aliceblue;
+    font-size: 7vmin;
+    padding-top: 2vmin;
+}
+p{
+    font-family: 'Rubik Burned', system-ui;
+    color: aliceblue;
+    font-size: 5vmin;
+    font-weight: bolder;
+}
+img{
+    height:30vmin;
+    width: 30vmin;
+    background-color:white;
+}
+h2{
+    color:white;
+    font-size: 4vmin;
+}
+.container1{
+    height: 90vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.start{
+    height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.play, .restart{
+    height: 12vmin;
+    width:25vmin;
+    border-radius: 25%;
+    font-family: 'Rubik Burned', system-ui;
+    font-weight: bolder;
+    font-size: 5vmin;
+    color: black;
+    background-color:#EEF0E5;
+}
+.hide{
+    display: none;
+}
+.container2{
+    height:50vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 3vmin;
+}
+.picks{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap:0.5vmin
+}
+.message{
+    height: 12vmin;
+    width: 75vmin;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: aliceblue;
+    font-size: 5vmin;
+    font-weight: bolder;
+}
+.score{
+    background-color:black;
+    height: 20vmin;
+    width: 50vmin;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 0.9fr 1.1fr;
+    gap:0.5vmin
+}
+.sc{
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 5vmin;
+}
+.msg{
+    padding-bottom: 1vmin;
+}
+.restart{
+    margin-top: 2vmin;
+    margin-bottom: 2vmin;
+}

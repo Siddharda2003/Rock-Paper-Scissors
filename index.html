@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper & Scissors</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Burned&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Rock Paper & Scissors</h1>
+    <main>
+        <div class="start ">
+            <button class="play">Let's Play</button>
+        </div>
+        <div class="container1 ">
+            <div class="container2">
+                <h2 class="ps hide">Take Your Pick</h2>
+                <div class="picks">
+                    <button class="btn Rock"><img src="./fist.png"></button>
+                    <button class="btn Paper"><img src="./hand-paper.png"></button>
+                    <button class="btn Scissors"><img src="./scissors.png"></button>
+                </div>
+            </div>
+            <div class="message hide"><h2>Rock beats scissors</h2></div>
+            <div class="msg"><h2 >Scorecard</h2></div>
+            <div class="score">
+                <div class="player sc"><h2 style="color: black;">Player</h2></div>
+                <div class="computer sc"><h2 style="color: black;">Computer</h2></div>
+                <div class="player-score sc"><h2 style="color: black;font-size: 7vmin;">0</h2></div>
+                <div class="computer-score sc"><h2 style="color: black;font-size: 7vmin;">0</h2></div>
+            </div>
+            <button class="restart">Restart</button>
+        </div>
+    </main>
+    <script src="./script.js"></script>
+</body>
+</html>
